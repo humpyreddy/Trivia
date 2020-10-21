@@ -1,0 +1,62 @@
+.my-container{
+    justify-content: center;
+    align-content: center;
+    padding: 15rem;
+    margin: auto 20%;
+}
+
+input::placeholder{
+    color: #aaa;
+}
+
+.username{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color:#56a5eb;
+    background-color: white;
+    border: 0.1rem solid #56a5eb;
+
+    box-shadow: 0 0.075rem 0.75rem 0 rgba(86,185,235,0.5);
+
+}
+
+.btn{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color:#56a5eb;
+    background-color: white;
+    border-radius: 3px ;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(86, 185, 235,0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow:none;
+    transform: none;
+}
+
+#finalScore{
+    color:#56a5eb;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 20rem;
+    font-size: 3rem;
+}
+
+
+

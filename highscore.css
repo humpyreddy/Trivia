@@ -1,0 +1,89 @@
+:root{
+    background-color: #ecf5ff;
+    font-size: 62.5%;
+}
+:root{
+    background-color: #ecf5ff;
+    font-size: 62.5%;
+}
+
+
+
+*{
+    box-sizing: border-box;
+    font-size: Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+    color:#333;
+}
+
+
+.my-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* centers vertically */
+    align-items: center;
+    /* centers horizontally */
+    justify-content: center;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    background-color: rgb(48, 155, 197);
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    padding: 1 rem 0;
+    width: 20rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    border:3px solid white;
+}
+
+.btn:hover{
+   cursor: pointer;
+   box-shadow: 0 0.4rem 1.4rem 0 rgb(86, 185, 235,0.5);
+   transform: translateY(-0.1rem);
+   transition: transform 150ms;
+}
+
+.btn[disabled]:hover{
+   cursor: not-allowed;
+   box-shadow:none;
+   transform: none;
+}
+
+h1{
+    color:  rgb(48, 155, 197);
+    font-size: 4rem;
+}
+
+
+#highscorelist{
+    margin-top: 3rem;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+
+}
+
+.high-score{
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.high-score:hover{
+    transform: scale(1.025);
+}
